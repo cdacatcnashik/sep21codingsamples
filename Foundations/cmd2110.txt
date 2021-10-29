@@ -1,0 +1,56 @@
+    1  cd DAC0921/Foundations/Introduction/
+    2  vi HelloAsm.s 
+    3  vi HelloHLA.c
+    4  cc HelloHLA.c -S 
+    5  ls
+    6  as HelloHLA.s -o HelloHLA.o
+    7  ld HelloHLA.o system.o -o run
+    8  ./run 
+    9  vi HelloHLA.c
+   10  ./run 
+   11  cc HelloHLA.c -S
+   12  vi HelloHLA.s
+   13  as HelloHLA.s -o HelloHLA.o
+   14  ld HelloHLA.o system.o -o run
+   15  ./run 
+   16  vi HelloHLB.py
+   17  python HelloHLB.py 
+   18  vi HelloHLB.py
+   19  python HelloHLB.py 
+   20  vi HelloHLB.py
+   21  vi HelloHLC.java
+   22  javac HelloHLC.java 
+   23  ls
+   24  ll
+   25  java Greeter
+   26  vi HelloHLC.java
+   27  java Greeter
+   28  javac HelloHLC.java 
+   29  java Greeter
+   30  vi HelloHLC.java
+    1  cd DAC0921/Foundations/
+    2  mkdir Variables
+    3  cd Variables/
+    4* 
+    5  as memaddrtest1.s -o memaddrtest1.o
+    6* 
+    7  cp ../Introduction/system.o .
+    8  cp ../Introduction/console.h .
+    9  as memaddrtest1.s -o memaddrtest1.o
+   10  ls
+   11  ld memaddrtest1.o system.o -o run
+   12  ./run 
+   13  vi memaddrtest1.s
+   14  as memaddrtest1.s -o memaddrtest1.o
+   15  ld memaddrtest1.o system.o -o run
+   16  ./run 
+   17  vi memaddrtest1.s
+   18  cp memaddrtest1.s memaddrtest1_a64.s
+   19  vi memaddrtest1_a64.s 
+   20  as memaddrtest1_a64.s memaddrtest1_a64.o
+   21  vi memaddrtest1.s
+   22  vi expressiontest.c
+   23  cc expressiontest.c -S
+   24  as expressiontest.s -o expressiontest.o
+   25  ld expressiontest.o system.o -o run
+   26  ./run 

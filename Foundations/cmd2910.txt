@@ -1,0 +1,57 @@
+    1  vi banner3.h
+    2  vi objreftest.cpp
+    3  c++ objreftest.cpp -o run
+    6  c++ objreftest.cpp -o run
+    7  vi banner3.h
+    8  c++ objreftest.cpp -o run
+    9  ./run 
+   10  vi banner3.h
+   11  vi objreftest.cpp
+   12  c++ objreftest.cpp -o run
+   13  ./run 
+   14  vi objreftest.cpp
+   15  c++ objreftest.cpp -o run
+   16  ./run 
+   17  vi objreftest.cpp
+   18  c++ objreftest.cpp -o run
+   19  ./run 
+   20  vi objreftest.cpp
+   21  c++ objreftest.cpp -o run
+   22  ./run 
+   23  vi objreftest.cpp
+   24  c++ objreftest.cpp -o run
+   25  ./run 
+   26  vi objreftest.cpp
+   27  c++ objreftest.cpp -o run
+   28  ./run 
+   29  vi objreftest.cpp
+   30  c++ objreftest.cpp -o run
+   31  vi objreftest.cpp
+   32  vi banner3.h 
+   33  vi objreftest.cpp
+   34  c++ objreftest.cpp -o run
+   35  vi objreftest.cpp
+   36  vi banner3.h 
+   37  c++ objreftest.cpp -o run
+   38  vi objreftest.cpp
+   39  vi objarraytest.cpp
+   40  c++ objarraytest.cpp -o run
+   41  ./run 
+   42  vi objarraytest.cpp
+   43  c++ objarraytest.cpp -o run
+   44  ./run 
+   45  vi objarraytest.cpp
+   46  c++ objarraytest.cpp -o run
+   47  vi objarraytest.cpp
+   48  c++ objarraytest.cpp -o run
+   49  ./run 
+   50  vi objarraytest.cpp
+   51  c++ objarraytest.cpp -o run
+   52  ./run 
+   53  vi objarraytest.cpp
+   54  c++ objarraytest.cpp -o run
+   55  ./run 
+   56  vi objarraytest.cpp
+   57  vi banner3.h 
+   58  ls
+   59  history > cmd2910.txt

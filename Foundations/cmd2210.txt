@@ -1,0 +1,25 @@
+    1  cd DAC0921/Foundations/Variables/
+    2  vi pointertest.c
+    3  cc pointertest.c 
+    4  cc pointertest.c  -S
+    5  as pointertest.s
+    6  ld a.out system.o -o run
+    7  ./run 
+    8  vi pointertest.c
+    9  cc pointertest.c  -S
+   10  as pointertest.s
+   11  ld a.out system.o -o run
+   12  ./run 
+   13  vi pointertest.c
+   14  cc pointertest.c  -S
+   15  as pointertest.s
+   16  ld a.out system.o -o run
+   17  ./run 
+   18  vi pointertest.c
+   19  cc pointertest.c  -S
+   20  as pointertest.s
+   21  ld a.out system.o -o run
+   22  ./run 
+   23  vi pointertest.c
+   24  vi expressiontest.c
+   25  history > ../cmd2210.txt

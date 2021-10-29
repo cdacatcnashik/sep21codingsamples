@@ -1,0 +1,64 @@
+    1  cd DAC0921/Foundations/
+    2  ls
+    3  cd Procedures/
+    4  vi functest2.c 
+    5  vi reftypetest.cpp
+    6  c++ reftypetest.cpp -o run
+    7  ./run 
+    8  vi reftypetest.cpp
+    9  cd ../Modularization/
+   10  vi primes.c 
+   11  vi externctest.cpp
+   12  c++ externctest.cpp -o run
+   13  c++ externctest.cpp primes.o -o run
+   14  vi externctest.cpp
+   15  objdump -t primes.o
+   16  vi externctest.cpp
+   17  c++ externctest.cpp -c
+   18  objdump -t externctest.o
+   19  cp primes.c primes.cpp
+   20  c++ primes.cpp -c
+   21  objdump -t primes.o
+   22  c++ externctest.cpp primes.o -o run
+   23  ./run
+   24  cc primes.c -c
+   25  vi externctest.cpp
+   26  c++ externctest.cpp primes.o -o run
+   27  ./run
+   28  vi externctest.cpp
+   29  history > ../cmd2810.txt
+   30  cd ..
+   31  mkdir Abstraction
+   32  cd Abstraction/
+   33  vi banner1.h
+   34  vi classtest1.cpp
+   35  vi banner1.h
+   36  vi classtest1.cpp
+   37  vi banner1.h
+   38  vi classtest1.cpp
+   39  vi banner1.h
+   40  vi classtest1.cpp
+   41  c++ classtest1.cpp -o run
+   42  ./run
+   43  vi banner1.h
+   44  c++ classtest1.cpp -o run
+   45  vi banner1.h
+   46  vi classtest1.cpp
+   47  c++ classtest1.cpp -o run
+   48  vi classtest1.cpp
+   49  cp banner1.h banner2.h 
+   50  vi banner2.h 
+   51  cp classtest1.cpp classtest2.cpp 
+   52  vi classtest2.cpp 
+   53  c++ classtest2.cpp -o run
+   54  ./run 
+   55  vi classtest2.cpp 
+   56  vi banner2.h 
+   57  vi classtest2.cpp 
+   58  ./run 
+   59  vi classtest2.cpp 
+   60  c++ classtest2.cpp -o run
+   61  ./run 
+   62  vi classtest2.cpp 
+   63  vi banner2.h 
+   64  history > ../cmd2810.txt 

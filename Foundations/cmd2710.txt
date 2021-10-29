@@ -1,0 +1,111 @@
+    1  cd DAC0921/Foundations/
+    2  pwd
+    3  ls
+    4  cd Modularization/
+    5  ls
+    6  vi primes.c 
+    7  vi externtest2.c 
+    8  cc externtest2.c -o run
+    9  cc externtest2.c primes.o -o run
+   10  ./run 
+   11  vi primes.c 
+   12  vi externtest2.c 
+   13  cc externtest2.c primes.o -o run
+   14  ./run 
+   15  vi primes.c 
+   16  cc primes.c -c
+   17  ./run 
+   18  cc externtest2.c primes.o -o run
+   19  ./run 
+   20  ld primes.o -shared -o primes.so
+   21  ls
+   22  vi dynlnktest.py
+   23  python dynlnktest.py 
+   24  vi dynlnktest.py
+   25  python dynlnktest.py 
+   26  vi banner1.h
+   27  vi banner1.c
+   28  cc banner1.c -c
+   29  vi banner1.c
+   30  cc banner1.c -c
+   31  vi udttest1.c
+   32  cc udttest1.c banner1.o -o run
+   33  ./run 
+   34  cp banner1.h banner2.h
+   35  cp banner1.c banner2.c
+   36  cp udttest1.c udttest2.c 
+   37  vi banner2.h
+   38  vi banner2.c
+   39  vi banner2.h
+   40  vi banner2.c
+   41  cc banner2.c -c
+   42  vi banner2.c
+   43  cc banner2.c -c
+   44  vi udttest2.c 
+   45  cc udttest2.c banner2.o -o run
+   46  ./run 
+   47  vi udttest2.c 
+   48  cc udttest2.c banner2.o -o run
+   49  ./run 
+   50  history > ../cmd2710.txt
+   51  ls
+   52  vi udttest2.c 
+   53  ls
+   54  cd ..
+   55  cd Variables/
+   56  ls
+   57  vi namespacetest.cpp
+   58  c++ namespacetest.cpp -o run
+   59  ./run
+   60  echo $?
+   61  vi namespacetest.cpp
+   62  ./run
+   63  echo $?
+   64  c++ namespacetest.cpp -o run
+   65  ./run
+   66  echo $?
+   67  vi namespacetest.cpp
+   68  c++ namespacetest.cpp -o run
+   69  ./run
+   70  echo $?
+   71  vi namespacetest.cpp
+   72  c++ namespacetest.cpp -o run
+   73  ./run
+   74  echo $?
+   75  vi namespacetest.cpp
+   76  c++ namespacetest.cpp -o run
+   77  ./run
+   78  echo $?
+   79  vi namespacetest.cpp
+   80  c++ namespacetest.cpp -o run
+   81  ./run
+   82  echo $?
+   83  vi namespacetest.cpp
+   84  c++ namespacetest.cpp -o run
+   85  vi namespacetest.cpp
+   86  c++ namespacetest.cpp -o run
+   87  ./run 
+   88  vi namespacetest.cpp
+   89  c++ namespacetest.cpp -o run
+   90  ./run 
+   91  vi namespacetest.cpp
+   92  cd ../Procedures/
+   93  vi funcovldtest.cpp
+   94  c++ funcovldtest.cpp -o run
+   95  ./run 
+   96  vi funcovldtest.cpp
+   97  c++ funcovldtest.cpp -c
+   98  objdump -t funcovldtest.o
+   99  vi funcovldtest.cpp
+  100  cp funcovldtest.cpp exceptiontest.cpp
+  101  vi exceptiontest.cpp 
+  102  c++ exceptiontest.cpp -o run
+  103  ./run 
+  104  vi exceptiontest.cpp 
+  105  c++ exceptiontest.cpp -o run
+  106  ./run 
+  107  vi exceptiontest.cpp 
+  108  c++ exceptiontest.cpp -o run
+  109  ./run 
+  110  vi exceptiontest.cpp 
+  111  history > ../cmd2710.txt 

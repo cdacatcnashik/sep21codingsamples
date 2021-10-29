@@ -1,0 +1,12 @@
+    1  cd DAC0921/Foundations/Modularization/
+    2  uname -a
+    3  uname -m
+    4  as gcd.s -o gcd.o
+    5  cc externtest1.c gcd.o -o run
+    6  ./run 
+    7  vi primes.c
+    8  cc primes.c -c
+    9  objdump -t primes.o
+   10  cc primes.c -c
+   11  vi primes.c
+   12  history > ../cmd2610.txt

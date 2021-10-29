@@ -1,0 +1,50 @@
+    1  cd DAC0921/Foundations/
+    2  mkdir Control
+    3  cd Control/
+    4  cp ../Introduction/system.o .
+    5  cp ../Introduction/console.i .
+    6  vi branchtest.s
+    7  as branchtest.s 
+    8  ld a.out system.o -o run
+    9  ./run 
+   10  vi branchtest.s
+   11  as branchtest.s 
+   12  ld a.out system.o -o run
+   13  ./run 
+   14  vi branchtest.s
+   15  as branchtest.s 
+   16  ld a.out system.o -o run
+   17  ./run 
+   18  vi branchtest.s
+   19  as branchtest.s 
+   20  ld a.out system.o -o run
+   21  ./run 
+   22  vi branchtest.s
+   23  vi ifelsetest.c
+   24  cc ifelsetest.c -o run
+   25  ./run 
+   26  vi ifelsetest.c
+   27  cc ifelsetest.c -o run
+   28  ./run 
+   29  vi ifelsetest.c
+   30  vi switchtest.c
+   31  cc switchtest.c -o run
+   32  ./run 
+   33  vi switchtest.c
+   34  history > ../cmd2310.txt
+    1  cd DAC0921/Foundations/Control/
+    2  vi looptest.s
+    3  as looptest.s 
+    4  ld a.out system.o -o run
+    5  ./run 
+    6  vi dowhiletest.c
+    7  cc dowhiletest.c -o run
+    8  ./run 
+    9  vi dowhiletest.c
+   10  vi ifelsetest.c 
+   11  vi dowhiletest.c
+   12  vi whiletest.c
+   13  cc whiletest.c -o run
+   14  ./run 
+   15  vi whiletest.c
+   16  history >> ../cmd2310.txt 

@@ -1,1 +1,22 @@
-
+    1  mkdir Foundations
+    2  mkdir Foundations/Introduction
+    3  cd Foundations/Introduction
+    4  wget met.hussain.in/dac/asm64.tar.gz -O - |tar x
+    5  ls
+    6  vi HelloAsm.s
+    7  as HelloAsm.s -o HelloAsm.o
+    8  vi HelloAsm.s
+    9  as HelloAsm.s -o HelloAsm.o
+   10  vi HelloAsm.s
+   11  as HelloAsm.s -o HelloAsm.o
+   12  ll
+   13  vi HelloAsm.o
+   14  vi HelloAsm.s
+   15  ld HelloAsm.o system.o -o run
+   16  ls
+   17  ./run 
+   18  vi HelloAsm.s
+   19  as HelloAsm.s -o HelloAsm.o
+   20  ld HelloAsm.o system.o -o run
+   21  ./run
+   22  cp /samples/Foundations/Introduction/* .

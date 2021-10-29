@@ -1,0 +1,42 @@
+    1  cd DAC0921/Foundations/
+    2  pwd
+    3  vi functest1.c
+    4  cc functest1.c -o run
+    5  ./run 
+    6  vi functest1.c
+    7  vi functest2.c 
+    8  cc functest2.c -o run
+    9  vi functest2.c 
+   10  cc functest2.c -o run
+   11  vi functest2.c 
+   12  cc functest2.c -o run
+   13  ./run
+   14  vi functest2.c 
+   15  cc functest2.c -o run
+   16  ./run
+   17  vi functest2.c 
+   18  cc functest2.c -o run
+   19  ./run
+   20  vi functest2.c 
+   21  cc functest2.c -o run
+   22  ./run
+   23  vi functest2.c 
+   24  cc functest2.c -o run
+   25  vi functest2.c 
+   26  cc functest2.c -o run
+   27  vi functest2.c 
+   28  vi voidptrtest.c
+   29  cc voidptrtest.c -o run
+   30  ./run 
+   31  vi voidptrtest.c
+   32  cc voidptrtest.c -o run
+   33  ./run 
+   34  vi voidptrtest.c
+   35  cc voidptrtest.c -o run
+   36  ll
+   37  ./run 
+   38  vi voidptrtest.c
+   39  cc voidptrtest.c -o run
+   40  ./run 
+   41  vi voidptrtest.c
+   42  history > ../Foundations/cmd2510.txt 
