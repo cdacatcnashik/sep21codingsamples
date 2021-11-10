@@ -1,0 +1,24 @@
+  651  vi Investment.java
+  652  javac Investment.java 
+  653  ls
+  654  java Investment 
+  655  vi Program.java
+  656  javac Program.java 
+  657  java Program
+  658  vi Program.java
+  659  javac Program.java 
+  660  vi Program.java
+  661  javac Program.java 
+  662  vi Program.java
+  663  javac Program.java 
+  664  java Program 75000 4
+  665  vi Program.java
+  666  vi Investment.java 
+  667  javac Investment.java 
+  668  vi Program.java 
+  669  javac Program.java 
+  670  java Program 75000 4
+  671  java Program 40000 5
+  672  vi Program.java 
+  673  vi Investment.java 
+  674  history > cmd1011.txt
