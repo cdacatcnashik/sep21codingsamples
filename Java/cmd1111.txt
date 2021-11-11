@@ -1,0 +1,144 @@
+    1  cd DAC0921/Java/Basics/
+    2  ls
+    3  cp -r ClassTypeTest/ EnumTypeTest
+    4  cd EnumTypeTest/
+    5  ls
+    6  vi Investment.java 
+    7  javac Investment.java 
+    8  javac Program.java 
+    9  java Program 75000 4
+   10  vi Program.java 
+   11  javac Program.java 
+   12  java Program 75000 4
+   13  vi Investment.java 
+   14  vi Program.java 
+   15  cd ..
+   16  cp -r EnumTypeTest/ ExceptionTest
+   17  cd ExceptionTest/
+   18  ls
+   19  java Program
+   20  vi Program.java 
+   21  javac Program.java 
+   22  java Program
+   23  java Program 75000
+   24  java Program 75000 4
+   25  java Program 75000 4 7.5
+   26  java Program 25OOO 3
+   27  java Program 25000 a
+   28  vi Program.java 
+   29  javac Program.java 
+   30  java Program
+   31  java Program 25OOO 3
+   32  vi Investment.java 
+   33  javac Investment.java 
+   34  java Program
+   35  java Program 25OOO 3
+   36  java Program 3000 2
+   37  vi Investment.java 
+   38  vi Program.java 
+   39  javac Investment.java 
+   40  java Program 3000 2
+   41  javac Program.java 
+   42  java Program 3000 2
+   43  java Program 30000 2
+   44  vi Program.java 
+   45  vi Investment.java 
+   46  cd ..
+   47  mkdir VarArgTest
+   48  cd VarArgTest/
+   49  vi Progrm.java
+   50  ls
+   51  vi Program.java
+   52  javac Program.java 
+   53  java Program
+   54  vi Program.java
+   55  javac Program.java 
+   56  vi Program.java
+   57  javac Program.java 
+   58  java Program
+   59  vi Program.java
+   60  javac Program.java 
+   61  vi Program.java
+   62  javac Program.java 
+   63  java Program
+   64  vi Program.java
+   65  cd ..
+   66  mkdir Inheritance
+   67  cd Inheritance/
+   68  mkdir SubclassTest
+   69  cd SubclassTest/
+   70  mkdir payroll
+   71  vi payroll/Employee.java
+   72  javac payroll/Employee.java 
+   73  vi payroll/Employee.java
+   74  javac payroll/Employee.java 
+   75  vi payroll/Employee.java
+   76  javac payroll/Employee.java 
+   77  vi payroll/SalesPerson.java
+   78  javac payroll/SalesPerson.java
+   79  vi payroll/SalesPerson.java
+   80  javac payroll/SalesPerson.java
+   81  ls payroll/
+   82  history > ../../cmd1111.txt 
+    1  ls
+    2  vi Program.java
+    3  javac Program.java 
+    4  vi Program.java
+    5  javac Program.java 
+    6  vi Program.java
+    7  javac Program.java 
+    8  vi Program.java
+    9  javac Program.java 
+   10  vi Program.java
+   11  javac Program.java 
+   12  vi Program.java
+   13  javac Program.java 
+   14  java Program
+   15  vi Program.java
+   16  javac Program.java 
+   17  vi Program.java
+   18  javac Program.java 
+   19  java Program
+   20  vi Program.java
+   21  javac Program.java 
+   22  vi Program.java
+   23  cd ../
+   24  mkdir ObjectClassTest
+   25  cd ObjectClassTest/
+   26  vi Interval.java
+   27  vi Program.java
+   28  javac Program.java
+   29  vi Program.java
+   30  javac Program.java
+   31  vi Program.java
+   32  javac Program.java
+   33  vi Program.java
+   34  cd ../SubclassTest/
+   35  javap payroll.Employee
+   36  javap -p payroll.Employee
+   37  cd ../ObjectClassTest/
+   38  javap Interval
+   39  javap java.lang.Object
+   40  vi Program.java
+   41  vi Interval.java 
+   42  javap java.lang.Object
+   43  java Program
+   44  vi Program.java
+   45  vi Interval.java 
+   46  javac Interval.java 
+   47  java Program
+   48  vi Program.java
+   49  javac Interval.java 
+   50  javac Program.java 
+   51  java Program
+   52  vi Program.java
+   53  javac Program.java 
+   54  java Program
+   55  vi Interval.java
+   56  javap java.lang.Object
+   57  vi Interval.java
+   58  javac Interval.java 
+   59  vi Program.java
+   60  javac Program.java 
+   61  java Program
+   62  history >> ../../cmd1111.txt 
