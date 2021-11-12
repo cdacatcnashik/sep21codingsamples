@@ -1,0 +1,73 @@
+    1  cd DAC0921/Java/Inheritance/
+    2  ls
+    3  mkdir AbstractClassTest
+    4  cd AbstractClassTest/
+    5  mkdir src
+    6  vi src/InsufficientFundsException.java
+    7  javac -d . src/InsufficientFundsException.java 
+    8  ls src/
+    9  ls
+   10  ls banking/
+   11  javac -d . src/IllegalTransferException.java
+   12  vi src/IllegalTransferException.java
+   13  javac -d . src/IllegalTransferException.java 
+   14  vi src/Account.java
+   15  javac -d . src/Account.java
+   16  vi src/CurrentAccount.java
+   17  javac -d . src/CurrentAccount.java
+   18  vi src/SavingsAccount.java
+   19  javac -d . src/SavingsAccount.java
+   20  vi src/Banker.java
+   21  javac -d . src/Banker.java
+   22  vi src/Account.java
+   23  javap banking.Account
+   24  javap banking/InsufficientFundsException.class 
+   25  javap banking/IllegalTransferException.class 
+   26  vi Program.java
+   27  javac Program.java 
+   28  vi Program.java
+   29  javac Program.java 
+   30  vi Program.java
+   31  javac Program.java 
+   32  vi Program.java
+   33  javac Program.java 
+   34  java Program
+   35  vi Program.java
+   36  javac Program.java 
+   37  vi Program.java
+   38  javac Program.java 
+   39  vi Program.java
+   40  javac Program.java 
+   41  java Program 9000
+   42  java Program 19000
+   43  java Program 6OOO
+   44  vi Program.java
+   45  javac Program.java 
+   46  java Program 6OOO
+   47  java Program
+   48  vi Program.java
+   49  history > ../../cmd1211.txt
+    1  cd DAC0921/Java/Inheritance/
+    2  cp -r AbstractClassTest/ InterfaceTest1
+    3  cd InterfaceTest1/
+    4  ls
+    5  vi src/Profitable.java
+    6  javac -d . src/Profitable.java 
+    7  javap banking/Profitable.class 
+    8  vi src/Profitable.java
+    9  vi src/SavingsAccount.java 
+   10  javac -d . src/SavingsAccount.java 
+   11  vi Program.java 
+   12  javac Program.java 
+   13  java Program
+   14  vi Program.java 
+   15  javac Program.java 
+   16  java Program
+   17  vi Program.java 
+   18  vi ../SubclassTest/Program.java 
+   19  vi Program.java 
+   20  vi src/Banker.java 
+   21  cd ..
+   22  mkdir InterfaceTest2
+   23  cd InterfaceTest2
+   24  history >> ../../cmd1211.txt 
