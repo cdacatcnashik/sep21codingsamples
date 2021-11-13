@@ -1,0 +1,65 @@
+    1  cd DAC0921/Java/Inheritance/
+    2  ls
+    3  cd InterfaceTest2
+    4  ls
+    5  mkdir src
+    6  vi src/TaxPayer.java
+    7  vi src/Worker.java
+    8  vi src/Dealer.java
+    9  javac -d . src/*.java
+   10  vi src/Dealer.java
+   11  javac -d . src/*.java
+   12  ls
+   13  vi Program1.java
+   14  javac Program1.java 
+   15  vi Program1.java
+   16  javac Program1.java 
+   17  java Program1 3500000
+   18  java Program 3500000
+   19  java Program 24000 Jill
+   20  java Program 18000 Jim
+   21  vi Program1.java
+   22  javac Program1.java 
+   23  java Program 3500000
+   24  java Program 24000 Jill
+   25  java Program 18000 Jim
+   26  vi Program1.java
+   27  javap Auditor
+   28  vi Program1.java
+   29  cp Program2.java
+   30  cp Program1.java Program2.java
+   31  vi Program2.java 
+   32  javac Program2.java 
+   33  java Program 3500000
+   34  java Program 24000 Jill
+   35  java Program 18000 Jim
+   36  vi Program2.java 
+   37  cd ../..
+   38  mkdir Generics
+   39  cd Generics/
+   40  mkdir GenMethodTest
+   41  cd GenMethodTest/
+   42  vi Program1.java
+   43  javac Program1.java 
+   44  java Program 23
+   45  java Program 32
+   46  vi Program1.java
+   47  javac Program1.java 
+   48  vi Program1.java
+   49  javac Program1.java 
+   50  java Program 23
+   51  java Program 32
+   52  vi Program1.java
+   53  cp Program1.java Program2.java
+   54  vi Program2.java 
+   55  javac Program2.java 
+   56  vi Program2.java 
+   57  javac Program2.java 
+   58  java Program 23
+   59  java Program 32
+   60  vi Program2.java 
+   61  javac Program2.java 
+   62  java Program 23
+   63  java Program 32
+   64  vi Program2.java 
+   65  history >> ../../cmd1311.txt
