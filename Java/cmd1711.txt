@@ -1,0 +1,126 @@
+    1  cd DAC0921/Java/Runtime/ReflectionTest/
+    2  vi Program1.java 
+    3  java Program
+    4  vi Program1.java 
+    5  cp Program1.java Program2.java
+    6  vi Program2.java 
+    7  javac Program2.java 
+    8  java Program2
+    9  java Program
+   10  vi Program2.java 
+   11  javac Program2.java 
+   12  java Program
+   13  vi Program2.java 
+   14  javac Program2.java 
+   15  java Program
+   16  javap -p Student
+   17  vi Program2.java 
+   18  javac Program2.java 
+   19  java Program
+   20  vi Program2.java 
+   21  cd ..
+   22  mkdir AnnotationTest
+   23  cd AnnotationTest/
+   24  mkdir src
+   25  vi src/HomeLoan.java
+   26  vi src/EducationLoan.java
+   27  vi src/HomeLoan.java
+   28  vi src/PersonalLoan.java
+   29  javac -d lib src/*.java
+   30  ls
+   31  vi Program.java
+   32  vi src/HomeLoan.java 
+   33  cd lib/
+   34  javap finance/HomeLoan.class 
+   35  cd ..
+   36  vi Program.java
+   37  vi src/HomeLoan.java 
+   38  vi Program.java
+   39  javac Program.java 
+   40  vi Program.java
+   41  javac Program.java 
+   42  java Program 500000 finance.EducationLoan common
+   43  vi Program.java
+   44  ls
+   45  vi Program.java
+   46  java -cp .:lib Program 500000 finance.EducationLoan common
+   47  java -cp .:lib Program 500000 finance.HomeLoan common
+   48  java -cp .:lib Program 500000 finance.HomeLoan women
+   49  java -cp .:lib Program 500000 finance.PersonalLoan women
+   50  java -cp .:lib Program 500000 finance.PersonalLoan common
+   51  java -cp .:lib Program 500000 finance.PersonalLoan employees
+   52  export CLASSPATH=.:lib
+   53  java Program 500000 finance.PersonalLoan common
+   54  unset CLASSPATH
+   55  java Program 500000 finance.PersonalLoan common
+   56* 
+   57  ls
+   58  java -cp .:finlib.jar Program 500000 finance.PersonalLoan common
+   59  vi Program.java
+   60  vi ../../Inheritance/SubclassTest/Program.java 
+   61  vi ../../Inheritance/AbstractClassTest/Program.java 
+   62  vi Program.java
+   63  history > ../../cmd1711.txt 
+    1  cd DAC0921/Java/Runtime/AnnotationTest/
+    2  ls
+    3  vi src/MaxDuration.java
+    4  javac -d lib src/MaxDuration.java 
+    5  vi src/EducationLoan.java 
+    6  javac -d lib src/EducationLoan.java 
+    7  cd lib/
+    8  ls
+    9  cd ..
+   10  javac -d lib src/*.java 
+   11  vi src/PersonalLoan.java 
+   12  javac -d lib src/*.java 
+   13  vi src/MaxDuration.java 
+   14  javac -d lib src/*.java 
+   15  vi src/PersonalLoan.java 
+   16  vi src/HomeLoan.java 
+   17  javac -d lib src/*.java 
+   18  vi src/MaxDuration.java 
+   19  javac -d lib src/*.java 
+   20  vi src/MaxDuration.java 
+   21  vi Program.java 
+   22  javac Program.java 
+   23  javac -cp .:lib Program.java 
+   24  javac -cp lib Program.java 
+   25  vi Program.java 
+   26  javac -cp .:lib Program.java 
+   27  java -cp .:lib Program 500000 finance.EducationLoan common
+   28  java -cp .:lib Program 500000 finance.PersonalLoan common
+   29  java -cp .:lib Program 500000 finance.PersonalLoan employees
+   30  java -cp .:lib Program 500000 finance.HomeLoan common
+   31  java -cp .:lib Program 500000 finance.HomeLoan women
+   32  vi Program.java 
+   33  cd ..
+   34  mkdir NativeMethodTest1
+   35  cd NativeMethodTest1/
+   36  javap java.lang.Object
+   37  vi Program.java
+   38  javac Program.java 
+   39  vi Program.java
+   40  javac Program.java 
+   41  vi Program.java
+   42  javac Program.java 
+   43  java Program gcd 48 72
+   44  javac -h . Program.java 
+   45  ls
+   46  vi Program.h
+   47  vi nmt.cpp
+   48  export CPATH=/opt/jdk-16.0.1/include/:/opt/jdk-16.0.1/include/linux/
+   49  vi Program.h
+   50  c++ -shared -fPIC nmt.cpp -o libnmt.so
+   51  ls
+   52  vi Program.java
+   53  java Program gcd 48 72
+   54  java -Djava.library.path=. Program gcd 48 72
+   55  java -Djava.library.path=. Program gcd 49995 599944
+   56  java -Djava.library.path=. Program gcd 49995 59994
+   57  vi Program.java
+   58  vi Program.h
+   59  vi nmt.cpp 
+   60  export LD_LIBRARY_PATH=.
+   61  java Program gcd 48 72
+   62  vi Program.java
+   63  history >> ../../cmd1711.txt 

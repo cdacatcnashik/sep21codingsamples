@@ -1,0 +1,63 @@
+    1  cd DAC0921/Java/Platform/
+    2  ls
+    3  mkdir ExecutorTest
+    4  cd ExecutorTest/
+    5  cp ../ThreadTest/Worker.java Computation.java
+    6  vi Computation.java 
+    7  javac Computation.java 
+    8  vi Program1.java
+    9  javac Program1.java 
+   10  java Program
+   11  vi Program1.java
+   12  vi Computation.java 
+   13  javac Program1.java 
+   14  java Program
+   15  vi Computation.java 
+   16  javac Computation.java 
+   19  cp Program1.java Program2.java
+   20  vi Program2.java 
+   21  vi Program1.java
+   22  vi Program2.java 
+   23  vi Program1.java
+   24  vi Program2.java
+   25  javac Program2.java 
+   26  java Program
+   27  vi Program2.java
+   28  javac Program2.java 
+   29  java Program
+   30  vi Program2.java
+   31  javac Program2.java 
+   32  java Program
+   33  vi Program2.java
+   35  vi Computation.java 
+   37  javac Computation.java 
+   38  vi Computation.java 
+   39  javac Computation.java 
+   40  vi Program1.java 
+   41  javac Program1.java 
+   42  vi Program2.java 
+   43  javap java.util.concurrent.ExecutorService
+   44  vi Computation.java 
+   45  vi Program2.java 
+   46  javap java.util.concurrent.Future
+   47  vi Program2.java 
+   48  cd ..
+   49  mkdir ParallelStreamTest
+   50  cd ParallelStreamTest/
+   51  cp ../ThreadTest/Worker.java 
+   52  cp ../ThreadTest/Worker.java .
+   53  javac Worker.java 
+   54  vi Program1.java
+   55  javac Program1.java 
+   56  vi Program1.java
+   57  javac Program1.java 
+   58* vi Program1.javaA
+   59  javac Program1.java 
+   60  java Program
+   61  java Program 20
+   62  cp Program1.java Program2.java
+   63  vi Program2.java 
+   64  javac Program2.java 
+   65  java Program 20
+   66  vi Program2.java 
+   67  history > ../../cmd1911.txt 

@@ -1,0 +1,119 @@
+    1  cd DAC0921/Java/Runtime/NativeMethodTest1/
+    2  export CPATH=/opt/jdk-16.0.1/include/:/opt/jdk-16.0.1/include/linux/
+    3  export LD_LIBRARY_PATH=.
+    4  vi Program.java 
+    5  vi Program.h
+    6  vi nmt.cpp 
+    7  vi Program.java 
+    8  javac -h . Program.java 
+    9  java Program gcd 38 57
+   10  java Program reverse monday
+   11  vi Program.java 
+   12  vi nmt.cpp 
+   13  vi Program.h
+   14  vi nmt.cpp 
+   15  c++ -shared -fPIC nmt.cpp -o libnmt.so
+   16  java Program reverse monday
+   17  vi nmt.cpp 
+   18  vi Program.java 
+   19  javac -h Program.java 
+   20  javac -h . Program.java 
+   21  java Program square 1.0 2.5 3.0
+   22  vi Program.h
+   23  vi nmt.cpp 
+   24  c++ -shared -fPIC nmt.cpp -o libnmt.so
+   25  java Program square 1.0 2.5 3.0
+   26  vi nmt.cpp 
+   27  cd ..
+   28  mkdir NativeMethodTest2
+   29  cd NativeMethodTest2
+   30  cp ../../../Support/taxation.h .
+   31  cp ../../../Support/taxation.o .
+   32  vi taxation.h 
+   33  vi TaxPayerBridge.java
+   34  javac -h . TaxPayerBridge.java 
+   35  ls
+   36  vi TaxPayerBridge.h
+   37  vi tpb.cpp
+   38  javap -p -s TaxPayerBridge
+   39  vi tpb.cpp
+   40  c++ -shared -fPIC tpb.cpp taxation.o -o libtbp.so
+   41  vi Program.java
+   42  javac Program.java
+   43  vi TaxPayerBridge.java
+   44  javac -h . TaxPayerBridge.java 
+   45  javac Program.java
+   46  java Program 360000 23
+   47  rm libtbp.so 
+   48  c++ -shared -fPIC tpb.cpp taxation.o -o libtpb.so
+   49  java Program 360000 23
+   50  java Program 720000 23
+   51  java Program 720000 64
+   52  java Program 720000 85
+   53  vi tpb.cpp 
+   54  c++ -shared -fPIC tpb.cpp taxation.o -o libtpb.so
+   55  vi tpb.cpp 
+   56  c++ -shared -fPIC tpb.cpp taxation.o -o libtpb.so
+   57  java Program 720000 23
+   58  java Program 720000 123
+   59  vi tpb.cpp 
+   60  c++ -shared -fPIC tpb.cpp taxation.o -o libtpb.so
+   61  java Program 720000 123
+   62  history > ../../cmd1811.txt 
+    1  cd DAC0921/Java/
+    2  mkdir Platform
+    3  cd Platform/
+    4  vi Worker.java
+    5  java Worker.java
+    6  mkdir ThreadTest
+    7  mv Worker.java ThreadTest/
+    8  cd ThreadTest/
+    9  javac Worker.java
+   10  vi Program.java
+   11  javac Program.java
+   12  java Program
+   13  vi Program.java
+   14  javap java.lang.Runnable
+   15  vi Program.java
+   16  javap java.lang.Thread
+   17  vi Program.java
+   18  javac Program.java
+   19  java Program
+   20  java Program 3
+   21  vi Program.java
+   22  javap java.lang.Runnable
+   23  vi Program.java
+   24  javac Program.java
+   25  java Program
+   26  vi Program.java
+   27  javac Program.java
+   28  java Program
+   29  java Program 3
+   30  java Program 4
+   31  java Program 5
+   32  vi Program.java
+   33  java Program 3
+   34  java Program 5
+   35  vi Program.java
+   36  cd ..
+   37  cp -r ThreadTest/ MonitorTest
+   38  cd MonitorTest/
+   39  ls
+   40  vi JointAccount.java
+   41  javac JointAccount.java 
+   42  vi Program.java 
+   43  javac Program.java 
+   44  java Program
+   45  vi Program.java 
+   46  javac Program.java 
+   47  java Program
+   48  vi Program.java 
+   49  javac Program.java 
+   50  java Program
+   60  vi JointAccount.java 
+   61  javac JointAccount.java 
+   62  java Program
+   63  vi JointAccount.java 
+   65  javap java.lang.Object
+   66  vi JointAccount.java 
+   67  history >> ../../cmd1811.txt 

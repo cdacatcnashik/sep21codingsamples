@@ -1,0 +1,136 @@
+    1  cd DAC0921/Java/Generics/
+    2  ls
+    3  mkdir MapTest
+    4  cd MapTest/
+    5  cp ../ListTest/Interval.java .
+    6  vi Program.java
+    7  javac Program.java 
+    8  vi Program.java
+    9  javac Program.java 
+   10  java Program friday
+   11  java Program monday
+   12  java Program tuesday
+   13  java Program sunday
+   14  vi Program.java
+   15  javac Program.java 
+   16  vi Program.java
+   17  java Program sunday
+   18  javac Program.java 
+   19  java Program 
+   20  vi Program.java
+   21  javac Program.java 
+   22  java Program 
+   23  cd ../..
+   24  mkdir Runtime
+   25  cd Runtime/
+   26  mkdir FunctionalTest
+   27  cd FunctionalTest/
+   28  vi ../../../Foundations/Procedures/funcptrtest.c 
+   29  vi Investment.java
+   30  javap java.lang.Run
+   31  javap java.lang.Runnable
+   32  javap java.lang.Iterable
+   33  javap java.util.Iterator
+   34  javap java.io.Serializable
+   35  vi Investment.java
+   36  javac Investment.java 
+   37  vi Program.java
+   38  javac Program.java 
+   39  java Program
+   40  vi Investment.java
+   41  vi Program.java 
+   42  javac Program.java 
+   43  vi Program.java 
+   44  javac Program.java 
+   45  vi Program.java 
+   46  javac Program.java 
+   47  vi Program.java 
+   48  javac Program.java 
+   49  vi Program.java 
+   50  javac Program.java 
+   51  vi Program.java 
+   52  javac Program.java 
+   53  java Program
+   54  vi Program.java 
+   55  javac Program.java 
+   56  java Program
+   57  javap -p Program
+   58  vi Program.java 
+   59  javac Program.java 
+   60  vi Program.java 
+   61  history > ../../cmd1611.txt
+    1  cd DAC0921/Java/Runtime/
+    2  ls
+    3  mkdir StreamAPITest
+    4  cd StreamAPITest/
+    5  vi Shop.java
+    6  javac Shop.java 
+    7  ls
+    8  javap -p Customer
+    9  vi Shop.java
+   10  ls
+   11  ls -a
+   12  ps
+   13  fg
+   14  ls -a
+   15  vi Shop.java
+   16  javac Shop.java 
+   17  vi Shop.java
+   18  javac Shop.java 
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program items intel
+   22  java Program items samsung
+   23  java Program items seagate
+   24  java Program items apple
+   25  vi Program.java
+   26  javac Program.java 
+   27  java Program items intel
+   28  javac Program.java 
+   29  vi Program.java
+   30  javac Program.java 
+   31  java Program items intel
+   32  vi Program.java
+   33  vi Shop.java
+   34  javap -p Item
+   35  vi Shop.java
+   36  javap -p Customer
+   37  vi Program.java
+   38  vi Shop.java
+   39  vi Program.java
+   40  vi Shop.java
+   41  javac Program.java 
+   42  java Program customers 0
+   43  vi Program.java
+   44  javac Program.java 
+   45  java Program customers 0
+   46  java Program customers 50000
+   47  java Program customers 40000
+   48  vi Program.java
+   49  javac Program.java 
+   50  java Program customers 0
+   51  java Program customers 40000
+   52  vi Program.java
+   53  vi Shop.java
+   54  javac Shop.java 
+   55  java Program customers 40000
+   56  vi Shop.java
+   57  cd ..
+   58  mkdir ReflectionTest
+   59  cd ReflectionTest/
+   60  javap java.lang.Object
+   61  vi Program.java
+   62  javac Program.java 
+   63  vi Program.java
+   64  javac Program.java 
+   65  vi Program.java
+   66  javac Program.java 
+   67  java Program
+   68  vi Program.java
+   69  javac Program.java 
+   70  vi Program.java
+   71  javac Program.java 
+   72  java Program
+   73  vi Program.java
+   74  mv Program.java Program1.java
+   75  history >> ../../cmd1611.txt 
