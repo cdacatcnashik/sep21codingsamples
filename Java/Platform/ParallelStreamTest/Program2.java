@@ -6,6 +6,7 @@ class Program {
 		int n = args.length > 0 ? Integer.parseInt(args[0]) : 15;
 		long t1 = System.currentTimeMillis();
 		var r = IntStream.range(1, n + 1)
+					.parallel()
 					.mapToLong(Worker::doWork)
 					.sum();
 		long t2 = System.currentTimeMillis();
