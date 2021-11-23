@@ -1,0 +1,89 @@
+    1  cd DAC0921/Java/
+    2  mkdir Communication
+    3  cd Communication/
+    4  mkdir ServerSocketTest
+    5  cd ServerSocketTest/
+    6  cp ../../../Support/store.csv .
+    7  vi store.csv 
+    8  vi Shop.java
+    9  javac Shop.java 
+   10  vi Shop.java
+   11  javac Shop.java 
+   12  vi Shop.java
+   13  javac Shop.java 
+   14  vi Shop.java
+   15  vi store.csv 
+   16  vi Shop.java
+   17  vi store.csv 
+   18  vi Shop.java
+   19  javac Shop.java 
+   20  vi Shop.java
+   21  javac Shop.java 
+   22  vi Program.java
+   23  javac Program.java 
+   24  java Program &
+   25  netstat -pnlt
+   26  java Program
+   27  telnet localhost 4000
+   28  ip -4 address
+   29  ps
+   30  kill 9975
+   31  java Program &
+   32* 
+   33  ddr
+   34  ps
+   35  kill 11874
+   36  vi Program.java 
+   37  javac Program.java 
+   38  java Program &
+   39  telnet localhost 4000
+   40  vi Program.java 
+   41  pkill -ef "java Program"
+   42  javac Program.java 
+   43  java Program &
+   44  telnet localhost 4000
+   45  vi Program.java 
+   46  cp Program.java Program2.java
+   47  mv Program.java Program1.java
+   48  vi Program1.java 
+   49  vi Program2.java 
+   50  javap java.net.Socket
+   51  history > ../../cmd2211.txt 
+    1  cd DAC0921/Java/
+    2  cd Communication/
+    3  cd ServerSocketTest/
+    4  java Program &
+    5  netstat -pnlt
+    6  cd ..
+    7  mkdir SocketTest
+    8  cd SocketTest/
+    9  vi Program.java
+   10  telnet localhost 4000
+   11  vi Program.java
+   12  javac Program.java 
+   13  java Program ssd 4
+   14  java Program monitor 1 cdaclab
+   15  java Program printer 2
+   16  java Program cpu 200
+   17  vi Program.java
+   18  pkill -ef "java Program"
+   19  netstat -pnlt
+   20  java Program cpu 10
+   21  cd ..
+   22  mkdir DatagramSocketTest
+   23  cd DatagramSocketTest/
+   24  vi Program.java
+   25  javac Program.java 
+   26  java Program &
+   27  cd ..
+   28  mkdir MulticastSocketTest
+   29  cd MulticastSocketTest/
+   30  vi Program.java
+   31  javac Program.java 
+   32  java Program
+   33  pkill -ef "java Program"
+   34  java Program
+   35  vi Program.java
+   36  ip -4 address
+   37  vi Program.java
+   38  history >> ../../cmd2211.txt 

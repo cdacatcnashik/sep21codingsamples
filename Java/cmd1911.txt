@@ -61,3 +61,39 @@
    65  java Program 20
    66  vi Program2.java 
    67  history > ../../cmd1911.txt 
+    1  cd DAC0921/Java/Platform/
+    2  mkdir FileStreamTest
+    3  cd FileStreamTest/
+    4  vi Transformer.java
+    5  javac Transformer.java
+    6  vi Program.java
+    7  javac Program.java 
+    8  vi Program.java 
+    9  java Program Program.java data1.txt
+   10  ls
+   11  vi data1.txt 
+   12  java Program data1.txt data2.txt
+   13  ls
+   14  vi data2.txt 
+   15  vi Program.java 
+   16  vi Transformer.java 
+   17  vi Program.java 
+   18  cd ..
+   19  mkdir FileChannelTest
+   20  cd FileChannelTest/
+   21  vi Transformer.java
+   22  javac Transformer.java 
+   23  vi Transformer.java
+   24  javac Transformer.java 
+   25  vi Program.java
+   26  javac Program.java 
+   27  cp Program.java data.txt
+   28  vi data.txt 
+   29  java Program data.txt 
+   30  vi data.txt 
+   31  java Program data.txt 
+   32  vi data.txt 
+   33  vi Program.java
+   34  pwd
+   35  vi Program.java
+   36  history >> ../../cmd1911.txt 

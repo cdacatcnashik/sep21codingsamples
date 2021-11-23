@@ -1,0 +1,47 @@
+    1  cd DAC0921/Java/Platform/
+    2  mkdir ObjectSerializationTest
+    3  cd ObjectSerializationTest/
+    4  ls
+    5  mkdir src
+    6  vi src/Visitor.java
+    7  javap java.io.Serializable
+    8  javap java.lang.String
+    9  javap java.util.Date
+   10  vi src/Visitor.java
+   11  vi src/Site.java
+   12  javap java.util.List
+   13  vi src/Site.java
+   14  javap java.util.ArrayList
+   15  vi src/Site.java
+   16  javac -d . src/*.java
+   17  vi SiteStore.java
+   18  vi ../FileStreamTest/Program.java 
+   19  vi SiteStore.java
+   20  javap java.io.ObjectInputStream
+   21  vi SiteStore.java
+   22  javac SiteStore.java 
+   23  vi Program.java
+   24  javac Program.java 
+   25  vi Program.java
+   26  javac Program.java 
+   27  java Program Jack
+   28  java Program Jill
+   29  java Program
+   30  java Program John
+   31  java Program
+   32  java Program Jill
+   33  java Program
+   34  ls
+   35  vi src/Visitor.java 
+   36  javac -d . src/Visitor.java 
+   37  java Program
+   38  rm CityZoo.store 
+   39  java Program Jack
+   40  java Program Jill
+   41  java Program
+   42  java Program John
+   43  java Program Jill
+   44  java Program
+   45  cd ../..
+   46  ls
+   47  history > cmd2011.txt
