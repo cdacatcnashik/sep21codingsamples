@@ -1,0 +1,33 @@
+    1  cd DAC0921/Java/Database/
+    2  ls
+    3  mkdir JPATransactionTest
+    4  cd JPATransactionTest/
+    5  ls
+    6  mkdir src
+    7  export CLASSPATH=.:/opt/jars/*
+    8  vi src/OrderEntity.java
+    9  vi src/CounterEntity.java
+   10  javac -d . src/*.java
+   11  mkdir META-INF
+   12  cp ~/DAC0921/Support/persistence.xml META-INF/
+   13  cp ~/DAC0921/Support/orm.xml META-INF/
+   14  vi META-INF/orm.xml 
+   15  vi META-INF/persistence.xml 
+   16  vi src/OrderManager.java
+   17  javac -d . src/*.java
+   18  vi src/OrderManagerService.java
+   19  javac -d . src/*.java
+   20  vi src/OrderManagerService.java
+   21  rmiregistry 6000 &
+   22  vi jndi.properties
+   23  vi Server.java
+   24  vi META-INF/persistence.xml 
+   25  vi Server.java
+   26  javac Server.java 
+   27  vi Server.java
+   28  vi jndi.properties
+   29  java Server
+   30  java Server &
+   31  kill 20907
+   32  kill 19816
+   33  history > ../../cmd2511.txt 

@@ -1,0 +1,70 @@
+    1  cd DAC0921/Java/Database/JDBCParamSQLTest/
+    2  vi Program.java
+    3  javac Program.java 
+    4  vi Program.java
+    5  javac Program.java 
+    6  java Program CU103 104 8
+    7  export CLASSPATH=.:/opt/jars/*
+    8  java Program CU103 104 8
+    9  java Program CU102 108 6
+   10  java Program CU102 103 6
+   11  vi Program.java
+   12  vi ~/DAC0921/Support/salesora.sql 
+   13  cd ..
+   14  cp -r JDBCParamSQLTest/ JDBCStoredProcTest
+   15  cd JDBCStoredProcTest/
+   16  vi Program.java 
+   17  vi ~/DAC0921/Support/salesora.sql 
+   18  vi Program.java 
+   19  javac Program.java 
+   20  java Program CU101 105 15
+   21  java Program CU106 102 3
+   22  java Program CU104 102 3
+   23  vi Program.java 
+   24  vi ~/DAC0921/Support/salesora.sql 
+   25  vi Program.java 
+   26  vi ~/DAC0921/Support/salesora.sql 
+   27  history > ../../cmd2411.txt
+    1  cd DAC0921/Java/Database/
+    2  ls
+    3  mkdir JPAAnnotationTest
+    4  cd JPAAnnotationTest/
+    5  ls
+    6  export CLASSPATH=.:/opt/jars/*
+    7  mkdir src
+    8  vi src/OrderEntity.java
+    9  vi src/ProductEntity.java
+   10  vi src/OrderEntity.java
+   11  vi src/ProductEntity.java
+   12  javac -d . src/*.java
+   13  vi src/OrderEntity.java 
+   14  vi src/ProductEntity.java
+   15  javac -d . src/*.java
+   16  mkdir META-INF
+   17  cp ~/DAC0921/Support/persistence.xml META-INF/
+   18  vi META-INF/persistence.xml 
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program
+   22  vi src/OrderEntity.java 
+   23  javac -d . src/*.java
+   24  java Program
+   25  vi Program.java
+   26  javac -d . src/*.java
+   27  java Program
+   28  javac Program.java 
+   29  java Program
+   30  vi Program.java
+   31  javac Program.java 
+   32  java Program
+   33  vi Program.java
+   34  javac Program.java 
+   35  vi Program.java
+   36  javac Program.java 
+   37  java Program
+   38  java Program 102
+   39  java Program 104
+   40  java Program 105
+   41  java Program 106
+   42  vi Program.java
+   43  history >> ../../cmd2411.txt 

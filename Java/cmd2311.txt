@@ -1,0 +1,70 @@
+    1  cd DAC0921/Java/Communication/
+    2  mdkir HttpClientTest
+    3  mkdir HttpClientTest
+    4  cd HttpClientTest/
+    5  cp ../ServerSocketTest/Shop.java .
+    6  cp ../ServerSocketTest/store.csv .
+    7  javac Shop.java 
+    8  vi Server.java
+    9  javac Server.java 
+   10  vi Server.java
+   11  javac Server.java 
+   12  javap com.sun.net.httpserver.HttpServer
+   13  vi Server.java
+   14  javac Server.java 
+   15  java Server &
+   16  curl http://localhost:4000/shop/cpu
+   17  curl http://localhost:4000/shop/mouse
+   18  curl http://localhost:4000/shop/printer
+   19  vi Server.java
+   20  vi Program.java
+   21  curl http://localhost:4000/shop/mouse
+   22  vi Program.java
+   23  javac Program.java 
+   24  java Program monitor 4
+   25  java Program printer 3
+   26  java Program cpu 100
+   27  vi Program.java
+   28  history > ../../cmd2311.txt
+    1  cd DAC0921/Java/
+    2  mkdir Database
+    3  cd Database/
+    4  mkdir JDBCBasicSQLTest
+    5  cd JDBCBasicSQLTest/
+    6  sqlplus scott/tiger@xe
+    7  mysql -u dbpro
+    8  mysql -u dbpro -p
+    9  ls /opt/jars/
+   10  export CLASSPATH=.:/opt/jars/*
+   11  vi Program.java
+   12  javac Program.java 
+   13  java Program
+   14  vi Program.java
+   15  javac Program.java 
+   16  java Program
+   17  vi Program.java
+   18  javac Program.java 
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program
+   22  vi Program.java
+   23  javac Program.java 
+   24  java Program
+   25  vi Program.java
+   26  javac Program.java 
+   27  java Program
+   28  java Program 303
+   29  java Program
+   30  java Program 302
+   31  java Program
+   32  java Program 307
+   33  vi Program.java
+   34  javac Program.java 
+   35  java Program
+   36  java Program 102
+   37  java Program
+   38  java Program 107
+   39  vi Program.java
+   40  java Program
+   41  vi Program.java
+   42  history >> ../../cmd2311.txt 

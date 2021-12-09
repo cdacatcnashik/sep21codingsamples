@@ -1,0 +1,22 @@
+    1  ls
+    2  export CLASSPATH=.:/opt/jars/*
+    3  rmiregistry 6000 &
+    4  ls
+    5  javac -d . src/*.java
+    6  javac Server.java 
+    7  java Server &
+    8  vi Program.java
+    9  vi jndi.properties 
+   10  vi Server.java 
+   11  vi Program.java
+   12  javac Program.java 
+   13  java Program CU101 104 15
+   14  java Program CU102 106 18
+   15  java Program CU102 105 18
+   16  java Program CU101
+   17  java Program CU104
+   18  vi Program.java
+   19  vi src/OrderManagerService.java 
+   20  ps
+   21  kill 29097
+   22  kill 28969

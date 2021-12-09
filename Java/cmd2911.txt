@@ -1,0 +1,64 @@
+    1  cd NDAC0921/Java/Web/
+    2  cd JSTLTest/
+    3  . /opt/glassfish5/setenv.sh 
+    4  /opt/glassfish5/bin/asadmin deploy ClassicWebApp
+    5  vi src/CustomerBean.java 
+    6  javac -d ClassicWebApp/WEB-INF/classes/ src/CustomerBean.java 
+    7  vi ClassicWebApp/customer.jsp
+    8  vi ClassicWebApp/invoice.jsp
+    9  vi ClassicWebApp/customer.jsp
+   10  vi ClassicWebApp/invoice.jsp
+   11  vi src/CustomerBean.java 
+   12  vi ClassicWebApp/invoice.jsp
+   13  vi ClassicWebApp/customer.jsp 
+   14  vi ClassicWebApp/invoice.jsp
+   15  history > cmd2911.txt
+    1  cd DAC0921/Java/
+    2  cd Database/JPATransactionTest/
+    3  vi src/OrderEntity.java 
+    4  vi src/OrderManagerService.java 
+    5  rmiregistry 6000 &
+    6  pkill -ef "rmiregistry 6000"
+    7  rmiregistry 6000 &
+    8  java Server &
+    9  java -cp .:/opt/jars/* Server &
+   10  java Program CU102
+   11  java Program CU101 105 7
+   12  java Program CU101
+   13  cd ../..
+   14  cd Web/
+   15  mkdir JAXRSTest
+   16  cd JAXRSTest/
+   17  mkdir src
+   18  mkdir -p ModernWebApp/WEB-INF/classes
+   19  cp ~/DAC0921/Support/web.xml  ModernWebApp/WEB-INF/
+   21  cp ~/DAC0921/Support/salesui.* ModernWebApp/
+   22  ls ModernWebApp/
+   23  . /opt/glassfish5/setenv.sh 
+   26  /opt/glassfish5/bin/asadmin deploy ModernWebApp
+   27  cp ../../Database/JPATransactionTest/src/OrderEntity.java src
+   28  cp ../../Database/JPATransactionTest/src/OrderManager.java src
+   29  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   30  vi src/RestConfigApp.java
+   31  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   32  vi src/OrderManagerAPI.java
+   33  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   34  touch ModernWebApp/.reload
+   35  vi src/OrderManagerAPI.java
+   36  curl http://localhost:8001/ModernWebApp/api/orders/CU101
+   37  curl http://localhost:8001/ModernWebApp/api/orders/CU102
+   38  curl http://localhost:8001/ModernWebApp/api/orders/CU105
+   39  vi src/OrderManagerAPI.java
+   40  vi ModernWebApp/salesui.js 
+   41  vi ModernWebApp/salesui.html 
+   42  vi src/OrderManagerAPI.java
+   43  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   44  touch ModernWebApp/.reload
+   45  curl http://localhost:8001/ModernWebApp/api/orders/CU104
+   48  curl -X POST -H 'Content-Type: application/json' --data '{"customerId":"CU104", "productNo":105, "quantity":9}' http://localhost:8001/ModernWebApp/api/orders
+   49  curl -X POST -H 'Content-Type: application/json' --data '{"customerId":"CU104", "productNo":108, "quantity":9}' http://localhost:8001/ModernWebApp/api/orders
+   50  vi src/RestConfigApp.java 
+   51  vi src/OrderManagerAPI.java 
+   52  vi ../../Database/JPATransactionTest/Program.java 
+   53  vi src/OrderManagerAPI.java 
+   54  history >> ../../cmd2911.txt 

@@ -1,0 +1,83 @@
+    1  cd DAC0921/Java/
+    2  mkdir Web
+    3  cd Web/
+    4  mkdir ServletTest
+    5  cd ServletTest/
+    6  mkdir src
+    7  mkdir CoreWebApp
+    8  mkdir CoreWebApp/WEB-INF
+    9  mkdir CoreWebApp/WEB-INF/classes
+   10  cp ~/DAC0921/Support/web.xml CoreWebApp/WEB-INF/
+   11  vi CoreWebApp/welcome.html
+   12  . /opt/glassfish5/setenv.sh 
+   13  /opt/glassfish5/bin/asadmin deploy CoreWebApp
+   14  vi CoreWebApp/WEB-INF/web.xml 
+   15  /opt/glassfish5/bin/asadmin undeploy CoreWebApp
+   16  /opt/glassfish5/bin/asadmin deploy CoreWebApp
+   17  vi src/GreetingServlet.java
+   18  javac -d CoreWebApp/WEB-INF/classes/ src/GreetingServlet.java 
+   19  echo CLASSPATH
+   20  echo $CLASSPATH
+   21  vi CoreWebApp/WEB-INF/web.xml 
+   22  /opt/glassfish5/bin/asadmin undeploy CoreWebApp
+   23  /opt/glassfish5/bin/asadmin deploy CoreWebApp
+   24  vi src/GreetingServlet.java
+   25  javap javax.servlet.Servlet
+   26  vi src/GreetingServlet.java
+   27  vi CoreWebApp/WEB-INF/web.xml 
+   28  cp CoreWebApp/welcome.html CoreWebApp/formpost.html
+   29  vi CoreWebApp/formpost.html 
+   30  vi src/CountingServlet.java
+   31  vi CoreWebApp/formpost.html 
+   32  vi src/CountingServlet.java
+   33  javac -d CoreWebApp/WEB-INF/classes src/CountingServlet.java
+   34  touch CoreWebApp/.reload
+   35  vi src/CountingServlet.java
+   36  javac -d CoreWebApp/WEB-INF/classes src/CountingServlet.java
+   37  touch CoreWebApp/.reload
+   38  vi src/CountingServlet.java
+   39  javac -d CoreWebApp/WEB-INF/classes src/CountingServlet.java
+   40  touch CoreWebApp/.reload
+   41  vi src/CountingServlet.java
+   42  javac -d CoreWebApp/WEB-INF/classes src/CountingServlet.java
+   43  touch CoreWebApp/.reload
+   44  vi src/CountingServlet.java
+   45  javac -d CoreWebApp/WEB-INF/classes src/CountingServlet.java
+   46  touch CoreWebApp/.reload
+   47  vi src/CountingServlet.java
+   48  sqlplus dac30/dac30@xe
+   49  sqlplus dac29/dac29@xe
+   50  history > ../../cmd2611.txt 
+    1  cd DAC0921/Java/Web/
+    2  cd ServletTest/
+    3  . /opt/glassfish5/setenv.sh 
+    4  vi src/PausingFilter.java
+    5  javap javax.servlet.Filter
+    6  vi src/PausingFilter.java
+    7  javac -d CoreWebApp/WEB-INF/classes/  src/PausingFilter.java
+    8  touch CoreWebApp/.reload 
+    9  vi src/PausingFilter.java
+   10  cd ..
+   11  mkdir JSPTest
+   12  cd JSPTest/
+   13  mkdir src
+   14  mkdir -p BasicWebApp/WEB-INF/classes
+   15  cp ~/DAC0921/Support/web.xml BasicWebApp/WEB-INF/
+   16  vi BasicWebApp/welcome.jsp
+   17  /opt/glassfish5/bin/asadmin deploy BasicWebApp
+   18  /opt/glassfish5/bin/asadmin undeploy BasicWebApp
+   19  /opt/glassfish5/bin/asadmin deploy BasicWebApp
+   20  vi BasicWebApp/welcome.jsp
+   21  vi src/CounterBean.java
+   22  javac -d BasicWebApp/WEB-INF/classes/ src/CounterBean.java 
+   23  touch BasicWebApp/.reload
+   24  cp BasicWebApp/welcome.jsp BasicWebApp/beantest.jsp
+   25  vi BasicWebApp/beantest.jsp 
+   26  vi src/GreeterBean.java
+   27  javac -d BasicWebApp/WEB-INF/classes/ src/GreeterBean.java 
+   28  touch BasicWebApp/.reload 
+   29  vi BasicWebApp/beantest.jsp 
+   30  touch BasicWebApp/.reload 
+   31  vi src/GreeterBean.java
+   32  vi BasicWebApp/beantest.jsp 
+   33  history >> ../../cmd2611.txt 

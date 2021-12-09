@@ -1,0 +1,45 @@
+    1  cd DAC0921/Java/Web/
+    2  ls
+    3  cd JSPTest/
+    4  ls
+    5  . /opt/glassfish5/setenv.sh 
+    6  javap javax.servlet.jsp.tagext.SimpleTag
+    7  vi src/ClockTag.java
+    8  javac -d BasicWebApp/WEB-INF/classes/ src/ClockTag.java 
+    9  cp ~/DAC0921/Support/taglib.tld BasicWebApp/WEB-INF/
+   10  vi BasicWebApp/WEB-INF/taglib.tld 
+   11  vi src/ClockTag.java
+   12  vi BasicWebApp/WEB-INF/taglib.tld 
+   13  vi src/ClockTag.java
+   14  vi BasicWebApp/WEB-INF/taglib.tld 
+   15  cp BasicWebApp/welcome.jsp BasicWebApp/tagtest.jsp
+   16  vi BasicWebApp/tagtest.jsp 
+   17  vi BasicWebApp/WEB-INF/taglib.tld 
+   18  vi BasicWebApp/tagtest.jsp 
+   19  vi src/ClockTag.java
+   20  vi BasicWebApp/tagtest.jsp 
+   21  vi src/ClockTag.java
+   22  vi BasicWebApp/WEB-INF/taglib.tld 
+   23  vi src/LottoTag.java
+   24  javap javax.servlet.jsp.SimpleTagSupport
+   25  javap javax.servlet.jsp.tagext.SimpleTagSupport
+   26  javap -p javax.servlet.jsp.tagext.SimpleTagSupport
+   27  vi src/LottoTag.java
+   28  javac -d BasicWebApp/WEB-INF/classes/ src/LottoTag.java 
+   29  vi BasicWebApp/WEB-INF/taglib.tld 
+   30  touch BasicWebApp/.reload 
+   31  vi BasicWebApp/tagtest.jsp 
+   32  vi src/LottoTag.java
+   33  /opt/glassfish5/bin/asadmin undeploy BasicWebApp
+   34  cd ..
+   35  mkdir JSTLTest
+   36  cd JSTLTest/
+   37  mkdir src
+   38  mkdir -p ClassicWebApp/WEB-INF/classes
+   39  cp ../JSPTest/BasicWebApp/WEB-INF/web.xml ClassicWebApp/WEB-INF/
+   40  vi ClassicWebApp/WEB-INF/web.xml 
+   41  sqlplus scott/tiger@xe
+   42  vi src/CustomerBean.java
+   43  javac -d ClassicWebApp/WEB-INF/classes/ src/CustomerBean.java 
+   44  vi src/CustomerBean.java
+   45  history > ../../cmd2711.txt
